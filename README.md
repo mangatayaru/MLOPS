@@ -79,7 +79,7 @@ The `Jenkinsfile` runs tests, builds the Docker image, and includes an opt-in de
 - Regression: MAE, RMSE, R²; compare with a naive baseline.
 - Classification: accuracy, precision, recall, F1, confusion matrix. Gender prediction is a teaching task only and should not be used for consequential decisions.
 - Recommendation: ranked hotel suggestions using historical popularity and optional place/price filters; evaluate with a holdout split and ranking metrics if interaction labels support it.
-- Avoid using personal identifiers (`userCode`, `travelCode`, user names) as predictive features.
+  
 - Predictions are estimates, not guaranteed quoted fares. Production systems need monitoring for drift, latency, data quality, access control, and model rollback.
 
 
